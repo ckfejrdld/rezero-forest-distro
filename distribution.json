@@ -8,8 +8,8 @@
   },
   "servers": [
     {
-      "id": "rezeroForest-1.20.4",
-      "name": "rezeroForest (Minecraft 1.20.4)",
+      "id": "rezero-Forest-1.20.4",
+      "name": "rezero-Forest (Minecraft 1.20.4)",
       "description": "rezeroForest Running Minecraft 1.20.4 (Fabric v0.15.11)",
       "icon": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/server-icon.png",
       "version": "1.0.0",
