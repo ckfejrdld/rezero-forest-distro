@@ -1,8 +1,8 @@
 {
   "$schema": "file:///C:/helios/rezeroForest/distro/schemas/ServerMetaSchema.schema.json",
   "meta": {
-    "version": "1.0.1",
-    "name": "rezero-Forest",
+    "version": "1.0.0",
+    "name": "rezero-Forest (Minecraft 1.20.4)",
     "description": "rezero-Forest Running Minecraft 1.20.4 (Fabric v0.15.11)",
     "icon": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/server-icon.png",
     "address": "chuman.mc-sv.kr",
