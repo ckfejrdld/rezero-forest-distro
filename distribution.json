@@ -139,13 +139,13 @@
           }
         },
         {
-          "id": "generated.fabricmod:optifine_1.20.4_hd_u_i7:0.0.0@jar",
-          "name": "OptiFine_1.20.4_HD_U_I7",
+          "id": "generated.fabricmod:optifabric:1.14.3@jar",
+          "name": "OptiFabric",
           "type": "FabricMod",
           "artifact": {
-            "size": 7232045,
-            "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/servers/rezeroForest-1.20.4/fabricmods/optionalon/OptiFine_1.20.4_HD_U_I7.jar",
-            "MD5": "35bb67f2fa6e6e0bcbff13c23724deee"
+            "size": 612786,
+            "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/servers/rezeroForest-1.20.4/fabricmods/optionalon/optifabric-1.14.3.jar",
+            "MD5": "c5b73e880ae6c7321a0085167ed38e1d"
           },
           "required": {
             "value": false
@@ -178,13 +178,13 @@
           }
         },
         {
-          "id": "generated.library:optifabric:1.14.3@jar",
-          "name": "optifabric",
+          "id": "generated.library:OptiFine_1.20.4_HD_U_I7:0.0.0@jar",
+          "name": "OptiFine_1.20.4_HD_U_I7",
           "type": "Library",
           "artifact": {
-            "size": 612786,
-            "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/servers/rezeroForest-1.20.4/libraries/optifabric-1.14.3.jar",
-            "MD5": "c5b73e880ae6c7321a0085167ed38e1d"
+            "size": 7232045,
+            "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/servers/rezeroForest-1.20.4/libraries/OptiFine_1.20.4_HD_U_I7.jar",
+            "MD5": "35bb67f2fa6e6e0bcbff13c23724deee"
           }
         },
         {
