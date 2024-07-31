@@ -152,6 +152,19 @@
           }
         },
         {
+          "id": "net.irisshaders.iris:iris:1.7.2+mc1.20.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2703697,
+            "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/servers/rezeroForest-1.20.4/fabricmods/optionalon/iris-1.7.2+mc1.20.4.jar",
+            "MD5": "fa3647d1891a719b268c636236d989c2"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "de.maxhenkel:voicechat:1.20.4-2.5.19@jar",
           "name": "Simple Voice Chat",
           "type": "FabricMod",
@@ -183,7 +196,7 @@
           "type": "File",
           "artifact": {
             "size": 409957,
-            "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/servers/rezeroForest-1.20.4/files/shaderpacks/ComplementaryUnbound_r5.1.1%20(1).zip",
+            "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/servers/rezeroForest-1.20.4/files/sharderpacks/ComplementaryUnbound_r5.1.1%20(1).zip",
             "MD5": "da7fc4c86b12e65f4f70b3a9aaabae90",
             "path": "shaderpacks/ComplementaryUnbound_r5.1.1 (1).zip"
           }
