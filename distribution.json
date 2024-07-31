@@ -1,0 +1,210 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "rezeroForest-1.20.4",
+      "name": "rezeroForest (Minecraft 1.20.4)",
+      "description": "rezeroForest Running Minecraft 1.20.4 (Fabric v0.15.11)",
+      "icon": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/server-icon.png",
+      "version": "1.0.0",
+      "address": "chuman.mc-sv.kr",
+      "minecraftVersion": "1.20.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.15.11",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1327691,
+            "MD5": "b49fcf1bafc14bcda2472a0f060ebe41",
+            "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/repo/lib/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.4-fabric-0.15.11",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2849,
+                "MD5": "cb29d3d360c36ef10f5069b5a38b2835",
+                "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/repo/versions/1.20.4-fabric-0.15.11/1.20.4-fabric-0.15.11.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51935,
+                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91131,
+                "MD5": "bd3bc1c176a787373e9a031073c9574b",
+                "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.13.3+mixin.0.8.5",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1458875,
+                "MD5": "9dcf01250f72212bf97f0fef55ba5acd",
+                "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/repo/lib/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 608319,
+                "MD5": "3a1cade1634c518db6147c9771686ea9",
+                "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/repo/lib/net/fabricmc/intermediary/1.20.4/intermediary-1.20.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.fabricmod:caramelchat:1.1.1@jar",
+          "name": "CaramelChat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 127984,
+            "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/servers/rezeroForest-1.20.4/fabricmods/optionalon/caramelChat-mc1.20.4-fabric-1.1.1.jar",
+            "MD5": "ce211fbef99feb36a042efd65ac28876"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.97.1+1.20.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2187521,
+            "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/servers/rezeroForest-1.20.4/fabricmods/optionalon/fabric-api-0.97.1+1.20.4.jar",
+            "MD5": "bf5ff86ed44c610094d334a37e3c4980"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:optifabric:1.14.3@jar",
+          "name": "OptiFabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 612786,
+            "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/servers/rezeroForest-1.20.4/fabricmods/optionalon/optifabric-1.14.3.jar",
+            "MD5": "c5b73e880ae6c7321a0085167ed38e1d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:optifine_1.20.4_hd_u_i7:0.0.0@jar",
+          "name": "OptiFine_1.20.4_HD_U_I7",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7232045,
+            "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/servers/rezeroForest-1.20.4/fabricmods/optionalon/OptiFine_1.20.4_HD_U_I7.jar",
+            "MD5": "35bb67f2fa6e6e0bcbff13c23724deee"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.20.4-2.5.19@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8132399,
+            "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/servers/rezeroForest-1.20.4/fabricmods/optionalon/voicechat-fabric-1.20.4-2.5.19.jar",
+            "MD5": "ff6eefd2733b57a2f87e798a92872389"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.38.8@jar",
+          "name": "Xaero's World Map",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 949246,
+            "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/servers/rezeroForest-1.20.4/fabricmods/optionalon/XaerosWorldMap_1.38.8_Fabric_1.20.4.jar",
+            "MD5": "2259d3be3d40d838bbffe73c4cc0088f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.1.1 (1).zip",
+          "name": "ComplementaryUnbound_r5.1.1 (1).zip",
+          "type": "File",
+          "artifact": {
+            "size": 409957,
+            "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/servers/rezeroForest-1.20.4/files/shaderpacks/ComplementaryUnbound_r5.1.1%20(1).zip",
+            "MD5": "da7fc4c86b12e65f4f70b3a9aaabae90",
+            "path": "shaderpacks/ComplementaryUnbound_r5.1.1 (1).zip"
+          }
+        }
+      ]
+    }
+  ]
+}

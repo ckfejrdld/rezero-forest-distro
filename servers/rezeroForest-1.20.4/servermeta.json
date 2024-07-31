@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/helios/rezeroForest/distro/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "rezeroForest (Minecraft 1.20.4)",
+    "description": "rezeroForest Running Minecraft 1.20.4 (Fabric v0.15.11)",
+    "icon": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/server-icon.png",
+    "address": "chuman.mc-sv.kr",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.15.11"
+  },
+  "untrackedFiles": []
+}
