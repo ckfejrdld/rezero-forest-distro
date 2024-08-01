@@ -208,9 +208,9 @@
           "name": "ChewgueIike Mod",
           "type": "FabricMod",
           "artifact": {
-            "size": 15887,
+            "size": 17283,
             "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/servers/rezeroForest-1.20.4/fabricmods/optionalon/chewgueiike-mod-1.0.0.jar",
-            "MD5": "63debbade25ad6a49cf75f35224ad6fc"
+            "MD5": "cc89089dc42d6a8115552372db6266d6"
           },
           "required": {
             "value": false
