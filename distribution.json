@@ -191,6 +191,32 @@
           }
         },
         {
+          "id": "xaero.minimap.XaeroMinimapFabric:24.1.1@jar",
+          "name": "Xaero's Minimap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1474107,
+            "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/servers/rezeroForest-1.20.4/fabricmods/optionalon/Xaeros_Minimap_24.1.1_Fabric_1.20.4.jar",
+            "MD5": "c301070dc52186ce6e512d0849fca162"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.hoppang.chewgueiikemod:1.0.0@jar",
+          "name": "ChewgueIike Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 15887,
+            "url": "https://raw.githubusercontent.com/ckfejrdld/rezero-forest-distro/main/servers/rezeroForest-1.20.4/fabricmods/optionalon/chewgueiike-mod-1.0.0.jar",
+            "MD5": "63debbade25ad6a49cf75f35224ad6fc"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "ComplementaryUnbound_r5.1.1 (1).zip",
           "name": "ComplementaryUnbound_r5.1.1 (1).zip",
           "type": "File",
